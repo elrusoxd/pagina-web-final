@@ -20,7 +20,7 @@ body{
   }
   
   .p1{
-    margin-left: 500px;
+    margin-left: 150px;
     margin-right: 50px;
     background-color: lightblue;
     border-radius: 20px;
@@ -47,6 +47,6 @@ body{
     box-shadow: 0 9px #999;
   }
   h1{
-    margin-left: 850px;
+    margin-left: 480px;
     font-size: 40px;
   }

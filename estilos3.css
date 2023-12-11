@@ -52,11 +52,11 @@ body{
   .redessociales{
     position: absolute;
     top: 300px;
-    right:1000px;
+    right:300px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    font-size: 30px;
+    font-size: 25px;
     
    
   }

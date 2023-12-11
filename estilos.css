@@ -17,7 +17,7 @@ body {
   }
   
   .logo {
-    width: 200px;
+    width: 150px;
     margin-right: auto;
   
   }
@@ -43,9 +43,9 @@ body {
   h1 {
     position: relative;
     text-align: center;
-    margin-right: 900px;
+    margin-right: 185px;
     font-size: 50px;
-    
+    background-color: lightblue;
   }
   div {
     position: relative; 
@@ -61,8 +61,9 @@ body {
     margin: 0 10px; 
     border: 1px solid #ccc;
     border-radius: 5px;
-    width: 500px;
-    height: 500px;
+    width: 380px;
+    height: 380px;
+    
     object-fit: cover;
   }
   
@@ -88,6 +89,6 @@ body {
     border: none;
     border-radius: 15px;
     box-shadow: 0 9px #999;
-    margin-left: 2000px;
+    margin-left: 1270px;
     margin-top: 30px;
   }
