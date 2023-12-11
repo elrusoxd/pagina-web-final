@@ -19,15 +19,15 @@ body{
   }
   
   .p1{
-    margin-left: 12cm;
-    margin-right: 2cm;
+    margin-left: 500px;
+    margin-right: 50px;
     background-color: lightblue;
-    border-radius: 0.5cm;
+    border-radius: 20px;
   }
 
   .contenedor-mapa iframe{
       max-width: 100%;
-      border-radius: 1cm;
+      border-radius: 40px;
   }
   
   .boton{
@@ -46,6 +46,6 @@ body{
     box-shadow: 0 9px #999;
   }
   h1{
-    margin-left: 22.5cm;
+    margin-left: 850px;
     font-size: 40px;
   }

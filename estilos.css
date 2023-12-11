@@ -42,7 +42,7 @@ body {
   h1 {
     position: relative;
     text-align: center;
-    margin-right: 23cm;
+    margin-right: 900px;
     font-size: 50px;
     
   }
@@ -75,7 +75,7 @@ body {
   
   
   .boton {
-    display:inline-flex;
+    display:inline-block;
     padding: 15px 25px;
     font-size: 24px;
     cursor: pointer;
@@ -87,6 +87,6 @@ body {
     border: none;
     border-radius: 15px;
     box-shadow: 0 9px #999;
-    margin-left: 53cm;
-    margin-top: 1.5cm;
+    margin-left: 2000px;
+    margin-top: 30px;
   }
