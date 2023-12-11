@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comprar</title>
+  <link rel="stylesheet" href="estilos2.css" >
+ 
+</head>
+<body>
+  <header>
+    <a href="./index.html">
+      <button class="boton">Regresar</button>
+    </a>
+    <h1>Tienda</h1>
+  </header>
+
+<div class="contenedor-items">    <!-- contenedor de todos los productos   -->
+
+  <div class="item">
+    <figure> 
+    <img src="./imagenes/producto1.JPG" alt="crema con plasma" >
+  </figure>
+    <div class="info-producto">
+      <h2 class="titulo"> Crema con plasma rico en plaquetas</h2>
+      <p class="precio"> $5000 </p>
+    </div>
+  </div>
+
+
+  <div class="item">
+    <figure>
+    <img src="./imagenes/producto2.JPG" alt="acido hialuronico" >
+  </figure>
+    <div class="info-producto">
+      <h2 class="titulo"> Acido hialuronico</h2>
+      <p class="precio"> $2000 </p>
+    </div>
+  </div>
+
+
+  <div class="item">
+    <figure>
+       <img src="./imagenes/producto3.jpg" alt="Agua Micelar" >
+    </figure>
+    <div class="info-producto">
+      <h2 class="titulo"> Agua Micelar</h2>
+      <p class="precio"> $1500 </p>
+    </div>
+  </div>
+
+  <div class="item">
+    <figure>
+       <img src="./imagenes/producto4.jpg" alt="Espuma de Limpieza" >
+    </figure>
+    <div class="info-producto">
+      <h2 class="titulo"> Espuma de Limpieza</h2>
+      <p class="precio"> $2500 </p>
+    </div>
+  </div>
+
+  <div class="item">
+    <figure>
+       <img src="./imagenes/producto5.jpg" alt="Serum">
+    </figure>
+    <div class="info-producto">
+      <h2 class="titulo"> Serum</h2>
+      <p class="precio"> $10000 </p>
+    </div>
+  </div>
+  <br>
+  <br>
+
+  <div class="seleccionar">
+    <h2> Seleccione los productos : </h2>
+    <div class="seleccion"> 
+        <span> Crema con Plasma Rico en Plaquetas </span>
+        <input type="checkbox" id="1" name="opcion" > Cantidad
+        <input type="number" id="cant1" name="cantidad"> <br>
+        <span> Acido hialuronico</span>
+        <input type="checkbox" id="2" name="opcion" > Cantidad
+        <input type="number" id="cant2" name="cantidad"> <br>
+        <span> Agua Micelar</span>
+        <input type="checkbox" id="3" name="opcion" > Cantidad
+        <input type="number" id="cant3" name="cantidad"> <br>
+        <span> Espuma de Limpieza</span>
+        <input type="checkbox" id="4" name="opcion" > Cantidad
+        <input type="number" id="cant4" name="cantidad"> <br>
+        <span> Serum</span>
+        <input type="checkbox" id="5" name="opcion" > Cantidad
+        <input type="number" id="cant5" name="cantidad"> <br>
+      <br>
+      <br>
+      <button class="boton" type="button" onclick="calcular()"> CALCULAR</button>
+      <button class="boton" type="button" onclick="borrar()"> BORRAR</button>
+<br>
+<br>
+<br>
+    </div>
+    <div id="resultado"></div>
+  </div>
+
+  <script src="./index.js"></script>
+</body>
+</html>
